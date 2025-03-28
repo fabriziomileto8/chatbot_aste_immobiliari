@@ -89,9 +89,9 @@ uvicorn app.main:app --reload
 ### 🔹 Interfaccia
 ![Interfaccia iniziale](frontend/img/Screenshot.png)
 
-## 🎬 Demo video
+## 🎬 Video Demo
 
-🎥 [Guarda la demo](frontend/video_demo/demo.mov)
+Guarda la demo https://youtu.be/UekgOfcINzM
 
 ## 📫 Contatti
 
