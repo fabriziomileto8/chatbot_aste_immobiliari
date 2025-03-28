@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Collegamento al file CSS per lo stile della pagina -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Contenitore principale della pagina -->
+  <div class="main-wrapper">
+    <!-- Colonna sinistra: logo e descrizione -->
+    <div class="left-column">
+        <img src="img/Logo_white.png" alt="Logo Gdiaste" class="logo" style="border-radius: 50px;" />
+        <h2 class="subtitle">Il ChatBot delle Aste Immobiliari</h2>
+        <header class="top-banner">
+            <p>Hai bisogno di aiuto con le aste? Chatta con noi ora!</p>
+        </header>
+    </div>
+
+    <!-- Colonna destra: area della chat -->
+    <div class="right-column">
+      <div class="chat-container">
+        <div class="chat-box" id="chat-box"></div>
+        <div class="input-area">
+          <!-- Pulsante per cancellare la cronologia della chat -->
+          <button class="clear-button" onclick="clearChatHistory()" title="Cancella cronologia">
+            <img src="img/cestino_c.png" alt="Cancella cronologia" class="trash-icon" />
+          </button>
+          <input type="text" id="user-input" placeholder="Scrivi una domanda sulle aste..." />
+          <button onclick="sendMessage()">Invia</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Collegamento al file JavaScript per la logica della chat -->
+  <script src="script.js"></script>
+</body>
+</html>

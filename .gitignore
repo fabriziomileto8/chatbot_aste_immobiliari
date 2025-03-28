@@ -1,0 +1,16 @@
+# Ambiente virtuale
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Configurazioni locali
+.env
+
+# File di sistema (Mac)
+.DS_Store
+
+# Editor
+*.swp
+*.swo
